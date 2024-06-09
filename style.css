@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	background-image: url(moviebackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	padding: 20px;
+}
+
+.image {
+	background-image: url(parasite.avif);
+}
+
+.img-size {
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	box-shadow: 8px 8px 30px;
+	background-color: #fff;
+}
+
+.element {
+	padding-top: 30px;
+}
+
+.text {
+	padding: 10px;
+}
+
+.elementTitle {
+	padding-top: 30px;
+}
+
+hr {
+	border: solid 1px black;
+}
+
+.imageEle2 {
+	background-image: url(parasiteattraction.jpg);
+}
+
+.imageEle3 {
+	background-image: url(parasitetheme.webp);
+}
+
+.imageEle4 {
+	background-image: url(parasitedialogue.webp);
+}
+
+.imageEle5 {
+	background-image: url(parasitecinema.jpg);
+}
+
+.imageEle6 {
+	background-image: url(parasiteedititng.png);
+}
+
+.imageEle7 {
+	background-image: url(parasitemusic.webp);
+}
+
+.imageEle8 {
+	background-image: url(parasitedirecting.jpeg);
+}
+
+.imageEle9 {
+	background-image: url(parasiteitfactor.png);
+}
+
+.imgele-size {
+	min-height: 85vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.video-size{
+	min-height: 80vh;
+	min-width: 70vw;
+}
+
+@media (max-width: 768px) {
+	.image {
+		min-height: 25vh;
+	}
+
+	.imgele-size {
+		min-height: 25vh;
+	}
+
+	.video-size {
+		min-height: 25vh;
+		min-width: 80vw;
+	}
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: 0.2s ease-out;
+}
+
+.back-to-top span {
+	color: #fff;
+	font-size: 2rem;
+	transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+	background-color: gray;
+}
+.back-to-top:hover span {
+	transform: translateY(-4px);
+}
